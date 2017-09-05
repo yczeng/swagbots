@@ -1,9 +1,7 @@
 # swagBots
-Late May 2017, I figured out that theSkimm's referral system doesn't actually check that subscribed emails are real, so I wrote a bot to increase my referral count and get free swag.
+Late May 2017, I figured out that theSkimm's referral system doesn't actually check that subscribed emails are real, so I wrote a bot to get free swag by scraping a list of the most common baby names, appending @gmail.com to create subscriber email addresses, and simulating mouse clicks & keyboard strokes. I also tried this for Finimize and theHustle, but only received swag from theskimm.
 
-I scraped a list of the most common baby names and appended @gmail.com to create subscriber email addresses. Then I simulated mouse clicks and keyboard strokes to navigate the browser.
-
-After I maxed out the prize pool for theSkimm's referral system, I wrote bots for similar newsletters Finimize and theHustle.
+This is pretty unethical and I mostly did this to see if these sites would would recognize that (such an obvious) bot was doing this. Feel free to browse code but for fucks sake, don't try it on theskimm because they will actually send you swag.
 
 # How to Use:
 I used [PyUserInput](https://github.com/SavinaRoja/PyUserInput) by SavinRoja, licensed by GPL-3.0, to simulate mouse clicks and keyboard strokes.
